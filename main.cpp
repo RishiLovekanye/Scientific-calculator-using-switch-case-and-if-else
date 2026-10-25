@@ -51,15 +51,16 @@ double a,b,answer;
                 cout<<a<<" * "<<b<<" = "<<a*b<<endl;
             break;
 
-            case 4 :
-                cout<<"enter two numbers for divison: ";
-                cin>>a>>b;
-            if(b==0){
-                cout<<"Divison by Zero is not possible!!"<<endl;
-                continue ;
-            } answer= a/b;
-            cout<<answer<<endl;
-            break ;
+            case 4:
+    cout << "enter two numbers for divison: ";
+    cin >> a >> b;
+    if (b == 0) {
+        cout << "Division by Zero is not possible!\n";
+    } else {
+        cout << a / b << endl;
+    }
+    break;
+
 
             case 5 :
             if(choice==5){
