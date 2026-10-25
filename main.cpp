@@ -100,6 +100,7 @@ double a,b,answer;
 
             case 9:
             cout<<"Enter the angle in degree";
+            cin>>angle;
             answer = tan(angle * (M_PI / 180.0));
             cout<<answer<<endl;
             break;
